@@ -8,4 +8,6 @@ RUN apt-get update && \
       iputils-ping \
       mtr \
       telnet \
-      wget
+      wget && \
+    apt-get clean && \
+    rm -rvf /var/lib/apt/lists/*
