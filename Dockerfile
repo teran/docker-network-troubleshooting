@@ -5,6 +5,7 @@ RUN apt-get update && \
     apt-get install -y \
       bind9-host \
       curl \
+      dnsutils \
       iputils-ping \
       mtr \
       telnet \
