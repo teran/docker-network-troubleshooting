@@ -5,13 +5,17 @@ RUN apt-get update && \
     apt-get install -y \
       bind9-host \
       curl \
+      dhcping \
       dnsutils \
       iptables \
       iputils-ping \
       mtr \
+      net-tools \
       nmap \
       tcpdump \
       telnet \
+      tftp-hpa \
+      traceroute \
       wget && \
     apt-get clean && \
     rm -rvf /var/lib/apt/lists/*
