@@ -9,6 +9,7 @@ RUN apt-get update && \
       iptables \
       iputils-ping \
       mtr \
+      nmap \
       telnet \
       wget && \
     apt-get clean && \
