@@ -10,6 +10,7 @@ RUN apt-get update && \
       iputils-ping \
       mtr \
       nmap \
+      tcpdump \
       telnet \
       wget && \
     apt-get clean && \
